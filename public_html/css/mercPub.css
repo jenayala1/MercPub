@@ -1,0 +1,341 @@
+/*! --incoporate the old Back and body chiropractic loading header-blocks --!*/
+
+
+header {
+	background-color: black; 
+	color: white;
+	font-family: Verdana,sans-serif;
+}
+
+a {
+		padding-bottom: 10px;
+		float: center;
+		color: silver;
+}
+
+body {
+	background-color: black;
+	background-image: url(../img/bouquet-of-plumeria-flowers.jpg);
+	font-family: Verdana,sans-serif;
+	font-size: 18px;
+	margin: 10%;
+	color: 	#B8860B;
+
+	}
+
+.container {
+	text-align: left
+}
+
+	.nav {
+		position: top center;
+
+	}
+
+	.row:after; {
+		content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	.column {
+	    padding: 10px;
+	    border: 1px solid silver;
+	    margin: 0px;
+	    text-indent: 20%;
+	    float: left;
+	    position: relative;
+
+	}
+
+	.column.nav {
+		color: 	#B8860B;
+		width: 15%;
+		height: 40px;
+		list-style-type: none;
+		font-family: Verdana,sans-serif;
+		margin: bottom;
+		margin: top;
+		text-align: center;
+		background-color: none;
+		display: inline-block;
+
+	}
+
+
+	.header1 {
+		font-size: 60px;
+		color: black;
+		text-decoration: underline;
+		font-family: "Bank Gothic";
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		width: 100%;
+
+	}
+	.headerd {
+		font-family: Verdana,sans-serif;
+		color: 	#B8860B;
+		border-color: white;
+		padding: 10px;
+		margin: bottom;
+		width: 100%;
+		text-indent: right
+
+	}
+
+	.section-header {
+		color: 	#B8860B;
+		text-decoration: underline;
+		font-family: "Verdana,sans-serif";
+		font-weight: bold;
+		font-size: 24px;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		width: 100%;
+	
+	}
+
+
+	h1, h2, h3, h4 {
+		text-align: center;
+		font-family: Verdana,sans-serif;
+		color: gold;	
+		margin: bottom;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	h1 {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	h2 {
+		text-decoration: underline;
+		font-size: 22px;
+		font-weight: bold;
+		margin: left;
+
+	}
+
+	h3  {
+		font-weight: normal;
+		margin: left;
+		font-size: 18px;
+		
+	}
+	
+	h4  {
+		font-weight: normal;
+		margin: left;
+		font-size: 16px;
+		
+	}
+	
+	table {
+		border-spacing: 2em;
+		border-style: double;
+		font-family: Verdana,sans-serif;
+		
+	}
+
+	ul {
+		font-weight: bold;
+		font-size: 18px;
+		text-align: left;
+
+	}
+
+	li {
+		font-size: 16px;
+		padding: 2px;
+		margin: left;
+		margin: 5px;
+		text-indent: none;
+
+	}
+
+	ol, ul {
+		font-size: 14px;
+		padding: 2px;
+		margin: left;
+		margin: 5px;
+		text-indent: none;
+	}	
+
+	.paragraph1 {
+		margin-right: 10px;
+		font-family: Verdana,sans-serif;
+		padding-bottom: 10px;
+		text-align: left;
+
+	}
+
+	.bullet1 {
+		list-style-type: square;
+		padding-bottom: 5px;
+	}
+
+	.bullet2 {
+		list-style-type: square;
+		padding-bottom: 5px;
+	}
+
+	.img2 {
+		margin: bottom;
+		margin-right: 10px;
+		width: 50%;
+		padding: 10px;
+		position: left;
+	}
+
+
+	.hr {
+		outline-style: solid;
+		outline-color: 	#B8860B;
+	}
+}
+	
+
+	form {
+		padding: 25px;
+	}
+
+
+		.label {
+			padding: 10px;
+			border: none;
+		}
+
+
+		.ul {
+			list-style: square;
+			color: navy;
+			background-color: white;
+
+		}
+
+footer {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	font-family: Verdana,sans-serif;
+	color: gold;
+	font-size: 14px;
+	font-weight: normal;
+	padding-bottom: 5px;
+	padding-top: 20px;
+	list-style-type: square;
+	width: 100%;
+	height: 110px;
+	box-sizing: border-box;
+	z-index: 15;
+}
+
+	.container {
+		text-align: center;
+	}
+
+button {
+		padding: 10px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		display: inline-block;
+  		border-radius: 4px;
+  		cursor: pointer;
+  		background-color: #20b2aa;
+  		height: 50px;
+		
+	}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+div.container1 {
+	float: center;
+	width: 90%;
+	padding: 5% 5% 5% 5%;
+	background-color: black;
+	color: #F8F8FF;
+	text-shadow:1px 1px 10px #808080;
+}	
+
+
+div.container2{
+	float: left;
+	width: 45%;
+	padding: 0 5% 5% 5%;
+	background-color: black;
+	padding: 0 0 0% 5%;
+	color: #FFE600;
+	text-shadow:1px 1px 10px #808080;
+
+}
+div.container3{
+	float: right;
+	width: 45%;
+	padding: 0 5% 5% 5%;
+	color: #F8F8FF;
+	text-shadow:1px 1px 10px #808080;
+	background-color: #73c7c7;
+
+}
+div.container4{
+	float: left;
+	width: 60%;
+	padding: 0 0 0 0;
+	color: #F8F8FF;
+	text-shadow:1px 1px 10px #808080;
+	background-color: #73c7c7;
+
+}	
+div.container5{
+	float: right;
+	width: 45%;
+	padding: 0 5% 5% 5%;
+	color: #F8F8FF;
+	text-shadow:1px 1px 10px #808080;
+	background-color: #73c7c7;
+
+}
